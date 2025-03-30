@@ -1,0 +1,36 @@
+{
+    "info": {
+      "name": "Buscar Operadoras - SANTA CASA",
+      "_postman_id": "exemplo-1",
+      "description": "Requisição para buscar registros com 'SANTA CASA'.",
+      "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    },
+    "item": [
+      {
+        "name": "Busca SANTA CASA",
+        "request": {
+          "method": "GET",
+          "header": [],
+          "url": {
+            "raw": "http://localhost:5000/search?query=SANTA-CASA",
+            "protocol": "http",
+            "host": [
+              "localhost"
+            ],
+            "port": "5000",
+            "path": [
+              "search"
+            ],
+            "query": [
+              {
+                "key": "query",
+                "value": "SANTA CASA"
+              }
+            ]
+          }
+        },
+        "response": []
+      }
+    ]
+  }
+  
