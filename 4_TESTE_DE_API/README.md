@@ -1,5 +1,3 @@
-# Joao Henrique Silva de Miranda
-
 # Como Rodar e Testar
 
 1. **Inicie a aplicação:**
